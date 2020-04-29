@@ -1,22 +1,47 @@
-<html>
-  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+<!DOCTYPE html>
+<html lang="en">
+<img src="../imgs/logo.png" alt="Logo" style="width: 150px;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" id="main_style-css" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+<div style="background-color:#ebe8e7;"></div>
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
   style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
-  <a href="#aestheticvideo" onclick="w3_close()" class="w3-bar-item w3-button">Aesthetic Videos</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-  <a href="#baking" onclick="w3_close()" class="w3-bar-item w3-button">Baking</a>
-  <a href="#moodboard" onclick="w3_close()" class="w3-bar-item w3-button">Moodboard</a>
-  <a href="#meditate" onclick="w3_close()" class="w3-bar-item w3-button">Meditate</a>
-  <a href="#subscribe" onclick="w3_close()" class="w3-bar-item w3-button">Subscribe</a>
+  
+  <a href="../html/video.html" onclick="w3_close()" class="w3-bar-item w3-button">Aesthetic Videos</a>
+  <a href="../html/about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="../html/baking.html" onclick="w3_close()" class="w3-bar-item w3-button">Baking</a>
+  <a href="../html/moodboard.html" onclick="w3_close()" class="w3-bar-item w3-button">Moodboard</a>
+  <a href="./meditate.html" onclick="w3_close()" class="w3-bar-item w3-button">Meditate</a>
+  <a href="../html/subscribe.html" onclick="w3_close()" class="w3-bar-item w3-button">Subscribe</a>
+<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
 </nav>
 <!-- Top menu -->
 <div class="w3-top">
- <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-   <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-   <div class="w3-right w3-padding-16">Subscribe</div>
-   <div class="w3-center w3-padding-16">Meditate</div>
- </div>
+  <div class="w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Subscribe</div>
+    <div class="w3-center w3-padding-16">Meditate</div>
+  </div>
 </div>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,19 +53,18 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link href="./css/meditate.css" rel="stylesheet">
-  
 
-    <style>
 
-     body {
-    background-image: url(./mindfulness_assets/background.jpg);
+  <style>
+    body {
+      background-image: url(../img/background.jpg);
 
-    background-repeat: repeat;
-    background-size: 100%;
+      background-repeat: repeat;
+      background-size: 100%;
     }
-    </style>
+  </style>
 
-  
+
 </head>
 
 
@@ -48,39 +72,73 @@
 
   <div class="container">
 
-  
+    <img src="./mindfulness_assets/meditate.png" id="comedytitle" class="d-block w-10" alt="title for the Page" />
 
+    <h1>
+      A selection of handpicked calming meditation videos
+    </h1>
 
-  <img src="./mindfulness_assets/meditate.png" id="comedytitle" class="d-block w-10" alt="title for the Page" />
-
-<h1>
-    A selection of handpicked calming meditation videos
-</h1>
-
-  <div class="row">
-    <div class="col-sm">
-        <iframe width="515" height="315" src="https://www.youtube.com/embed/sJH6_ZbgeWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="row">
+      <div class="col-sm">
+        <iframe width="515" height="315" src="https://www.youtube.com/embed/sJH6_ZbgeWQ" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm">
+        <iframe width="515" height="315" src="https://www.youtube.com/embed/F0jedwTzIJg" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
-    <div class="col-sm">
-        <iframe width="515" height="315" src="https://www.youtube.com/embed/F0jedwTzIJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div>
+      <div class="row">
+        <div class="col-sm">
+          <iframe width="515" height="315" src="https://www.youtube.com/embed/_iGWdUTifIQ" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm">
+          <iframe width="515" height="315" src="https://www.youtube.com/embed/ZToicYcHIOU" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <iframe width="515" height="315" src="https://www.youtube.com/embed/pXWTinvfZ9w" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm">
+        <iframe width="515" height="315" src="https://www.youtube.com/embed/ccvL_gdXbKM" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    </head>
+
+    <!-- Add font awesome icons -->
+
+    <body>
+      <a href="https://www.youtube.com/results?search_query=mindfulness" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/explore/tags/mindfulness/?hl=en" class="fa fa-instagram"></a>
+      <a href="https://www.pinterest.co.uk/drmelanieg/mindfulness/" class="fa fa-pinterest"></a>
+    </body>
+    <!-- End page content -->
   </div>
-<div>
-  <div class="row">
-    <div class="col-sm">
-        <iframe width="515" height="315" src="https://www.youtube.com/embed/_iGWdUTifIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="col-sm">
-        <iframe width="515" height="315" src="https://www.youtube.com/embed/ZToicYcHIOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
 
-  <div class="row">
-    <div class="col-sm">
-        <iframe width="515" height="315" src="https://www.youtube.com/embed/pXWTinvfZ9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="col-sm">
-        <iframe width="515" height="315" src="https://www.youtube.com/embed/ccvL_gdXbKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+
+</body>
+
+</html>
